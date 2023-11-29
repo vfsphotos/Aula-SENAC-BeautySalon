@@ -1,0 +1,33 @@
+*{
+    margin: 0;  
+    padding: 0; 
+    font-family: 'poppins';
+}
+
+#principal{
+    margin-left: 100px;
+    width:auto;
+    height:100px;  
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu{
+    margin-right: 100px;
+    display:flex;
+    width:35%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header{
+        display: grid;
+        grid-auto-flow: column;
+        columns: auto; 
+}
+
+#explicacao{
+    margin: 290px 15px 50px 150px;
+    font-size: 24px;
+}
